@@ -144,19 +144,7 @@ right: 0;
   margin-left: 6px;
 }
 
-/* Définition des styles pour l'affichage mobile */
-@media only screen and (max-width: 767px) {
-  .top-menu .toggle-menu {
-    display: block;
-    font-size: 1.5em;
-    background-color: transparent;
-    border: none;
-    color: #000;
-    cursor: pointer;
-    outline: none;
-    padding: 0;
-    margin-right: 6px;
-  }
+
 
   .top-menu .main-menu {
     display: none;
@@ -259,7 +247,19 @@ display: flex;
 
 
 
-
+/* Définition des styles pour l'affichage mobile */
+@media only screen and (max-width: 767px) {
+  .top-menu .toggle-menu {
+    display: block;
+    font-size: 1.5em;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    margin-right: 6px;
+  }
 
 
 

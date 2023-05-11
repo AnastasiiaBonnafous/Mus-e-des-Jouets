@@ -1,235 +1,492 @@
+@font-face {
 
-  @font-face {
-    font-family: Quentell_CF;
-    src: url('typo/quentell_cf/QuentellCFBold-Regular.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: QuentellCFSemiBold-Regular;
-    src: url('typo/quentell_cf/QuentellCFSemiBold-Regular.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: Geo-Sans;
-    src: url('typo/geo_sans_light/GeosansLight-Oblique.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: Geo-SansLight;
-    src: url('typo/geo_sans_light/GeosansLight.ttf') format('truetype');
-  }
-  .sticky-top {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-  }
- 
-  .logoMusee {
-    width: 60px; /* or whatever size you prefer */
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-.logoMusee.shrink {
-  width: 180px; /* or whatever smaller size you prefer */
-}
-.logoMuseeC {
-  width: 160px; /* or whatever size you prefer */
-  position: fixed;
-  top: 0px;
-  left: 150px;
-  transform: translate(-50%, 0%);
-}  
-.shrink {
-  width: 30px; /* or whatever size you prefer */
-  position: fixed;
-  top: 0px;
-  left: 150px;
-  transform: translate(-50%, 0%);
-  }
+  font-family: Quentell_CF;
 
-  .top-menu li {
-    font-family: Quentell_CF;
-    font-style:initial;
-    font-size: 250%;
-    color: #1e325c;
-    }
-.topText  {
-    font-family: Quentell_CF;
-    font-style: normal;
-    text-align:center;
-    color: #1e325c;
-     }
-#titreText {
-  font-family: Quentell_CF;
-  font-style: normal;
-  color: #1e325c;
+  src: url('typo/quentell_cf/QuentellCFBold-Regular.ttf') format('truetype');
+
 }
-.title {
-  font-family: Quentell_CF;
-  font-style: normal;
-  color: #1e325c;
-}
-.title1 {
+
+@font-face {
+
   font-family: QuentellCFSemiBold-Regular;
-  font-style: normal;
-  font-size: 300%;
-  color: white;
+
+  src: url('typo/quentell_cf/QuentellCFSemiBold-Regular.ttf') format('truetype');
+
 }
+
+@font-face {
+
+  font-family: Geo-Sans;
+
+  src: url('typo/geo_sans_light/GeosansLight-Oblique.ttf') format('truetype');
+
+}
+
+@font-face {
+
+  font-family: Geo-SansLight;
+
+  src: url('typo/geo_sans_light/GeosansLight.ttf') format('truetype');
+
+}
+
+.sticky-top {
+
+  position: fixed;
+
+  top: 0;
+
+  width: 100%;
+
+  z-index: 999;
+
+}
+
+
+.logoMusee {
+
+  width: 60px; /* or whatever size you prefer */
+
+  position: fixed;
+
+  top: 80px;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+}
+
+.logoMusee.shrink {
+
+width: 180px; /* or whatever smaller size you prefer */
+
+}
+
+.logoMuseeC {
+
+width: 160px; /* or whatever size you prefer */
+
+position: fixed;
+
+top: 0px;
+
+left: 150px;
+
+transform: translate(-50%, 0%);
+
+} 
+
+.shrink {
+
+width: 30px; /* or whatever size you prefer */
+
+position: fixed;
+
+top: 0px;
+
+left: 150px;
+
+transform: translate(-50%, 0%);
+
+}
+
+
+
+.top-menu li {
+
+  font-family: Quentell_CF;
+
+  font-style:initial;
+
+  font-size: 250%;
+
+  color: #1e325c;
+
+  }
+
+.topText  {
+
+  font-family: Quentell_CF;
+
+  font-style: normal;
+
+  text-align:center;
+
+  color: #1e325c;
+
+   }
+
+#titreText {
+
+font-family: Quentell_CF;
+
+font-style: normal;
+
+color: #1e325c;
+
+}
+
+.title {
+
+font-family: Quentell_CF;
+
+font-style: normal;
+
+color: #1e325c;
+
+}
+
+.title1 {
+
+font-family: QuentellCFSemiBold-Regular;
+
+font-style: normal;
+
+font-size: 300%;
+
+color: white;
+
+}
+
 p {
 
-    font-family: Geo-SansLight;
-    font-style: normal;
-    font-size: 150%;
-    color: #000000; 
+
+
+  font-family: Geo-SansLight;
+
+  font-style: normal;
+
+  font-size: 150%;
+
+  color: #000000;
+
 }
+
 .date {
-  font-family: Geo-Sans;
-  font-size: 110%;
-  color: #000000; 
+
+font-family: Geo-Sans;
+
+font-size: 110%;
+
+color: #000000;
+
 }
+
 .footer-section {
-  font-family: Geo-SansLight;
-  font-style: normal;
-    font-size: 200%;
+
+font-family: Geo-SansLight;
+
+font-style: normal;
+
+  font-size: 200%;
+
 }
+
 footer {
+
 background-color: #1e325c;
+
 }
+
 .btn {
-  font-family: Geo-SansLight;
-  font-style: normal;
-    font-size: 150%;
+
+font-family: Geo-SansLight;
+
+font-style: normal;
+
+  font-size: 150%;
+
 }
+
 .SagF img {
+
 height: 314px;
+
 }
+
+
 
 .right-area {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+
+position: absolute;
+
+top: 10px;
+
+right: 10px;
+
 }
+
+
 
 .social-icons li {
-  display: inline-block;
+
+display: inline-block;
+
 }
 
+
+
 .social-icons img {
-  width: 30px;
-  height: 30px;
-  margin-left: 10px;
+
+width: 30px;
+
+height: 30px;
+
+margin-left: 10px;
+
 }
+
 .LogoTrip{
+
 position: absolute;
+
 top: 50px;
+
 right: 0;
+
 }
+
+
+
+
 
 
 
 /* Définition des styles pour l'affichage par défaut */
+
 .top-menu .toggle-menu {
-  display: none;
+
+display: none;
+
 }
 
+
+
 .top-menu .main-menu {
-  display: flex;
-  list-style: none;
+
+display: flex;
+
+list-style: none;
+
+margin: 0;
+
+padding: 0;
+
+}
+
+
+
+.top-menu .main-menu li {
+
+margin-right: 6px;
+
+margin-left: 6px;
+
+}
+
+
+
+
+
+
+
+.top-menu .main-menu {
+
+
+
+/* position: absolute; */
+
+
+
+top: 100%;
+
+
+
+left: 0;
+
+
+
+right: 0;
+
+
+
+background-color: #fff;
+
+
+
+z-index: 999;
+
+}
+
+
+
+.top-menu .main-menu li {
+
   margin: 0;
-  padding: 0;
+
+  padding: 10px;
+
+  border-bottom: 1px solid #ccc;
+
+}
+
+
+
+.top-menu .main-menu li:last-child {
+
+  border-bottom: none;
+
+}
+
+
+
+.top-menu .main-menu.show {
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+
+
+
+
+.hidden {
+
+display: none;
+
+}
+
+.hidden1 {
+
+display: none;
+
+}
+
+.hidden2 {
+
+display: none;
+
+}
+
+.hidden3 {
+
+display: none;
+
+}
+
+.hidden4 {
+
+display: none;
+
+}
+
+
+
+.hiddenTout {
+
+display: none;
+
+}
+
+
+
+.intitul {
+
+position: relative;
+
+margin: auto;
+
+top: 15%;
+
+transform: translateX(25%);
+
+font-family: Quentell_CF;
+
+font-style:initial;
+
+font-size: 150%;
+
+color: #1e325c;
+
+margin-bottom: 5%;
+
+}
+
+.ML {
+
+top: 20%;
+
+}
+
+.footer-instagram-area {
+
+margin-top: 15%;
+
+}
+
+.middle-menu {
+
+display: flex;
+
+justify-content: space-between;
+
+}
+
+.center-text {
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+width: 100%;
+
+}
+
+.logoMusee {
+
+width: 300px;
+
+}
+
+.logoInst, .logoFb {
+
+width: 20px;
+
+height: 20px;
+
+float: left;
+
+}
+
+.left-area {
+
+display: flex;
+
 }
 
 .top-menu .main-menu li {
-  margin-right: 6px;
-  margin-left: 6px;
+border: none;
 }
 
 
 
-  .top-menu .main-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: #fff;
-    z-index: 999;
-  }
 
-  .top-menu .main-menu li {
-    margin: 0;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-  }
 
-  .top-menu .main-menu li:last-child {
-    border-bottom: none;
-  }
 
-  .top-menu .main-menu.show {
-    display: flex;
-    flex-direction: column;
-  }
-}
 
-.hidden {
-  display: none;
-}
-.hidden1 {
-  display: none;
-}
-.hidden2 {
-  display: none;
-}
-.hidden3 {
-  display: none;
-}
-.hidden4 {
-  display: none;
-}
 
-.hiddenTout {
-  display: none;
-}
 
-.intitul {
-  position: relative;
-  margin: auto;
-  top: 15%;
-  transform: translateX(25%);
-  font-family: Quentell_CF;
-  font-style:initial;
-  font-size: 150%;
-  color: #1e325c;
-  margin-bottom: 5%;
-}
-.ML {
-  top: 20%;
-}
-.footer-instagram-area {
-margin-top: 15%;
-}
-.middle-menu {
-  display: flex;
-  justify-content: space-between;
-}
-.center-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-.logoMusee {
-  width: 20%;
-}
-.logoInst, .logoFb {
-  width: 20px;
- height: 20px;
-float: left;
-}
-.left-area {
-display: flex;
-}
+
+
+
+
+
+
 
 
 
@@ -248,26 +505,56 @@ display: flex;
 
 
 /* Définition des styles pour l'affichage mobile */
+
 @media only screen and (max-width: 767px) {
-  .top-menu .toggle-menu {
-    display: block;
-    font-size: 1.5em;
-    background-color: transparent;
-    border: none;
-    color: #000;
-    cursor: pointer;
-    outline: none;
-    padding: 0;
-    margin-right: 6px;
-  }
+
+.top-menu .main-menu.toggle-menu ,   .top-menu button.toggle-menu {
+
+  display: block;
+
+  font-size: 1.5em;
+
+  background-color: transparent;
+
+  border: none;
+
+  color: #000;
+
+  cursor: pointer;
+
+  outline: none;
+
+  padding: 0;
+
+  margin-right: 6px;
+
+}
+
+
+
+.top-menu .main-menu {display:none}  
+
+
+
+}
+
+
 
 
 
 @media (max-width: 700px)  {.SagF img {
-  height: auto;
-  }}
-  @media only screen and (max-width: 768px) {
-    .instagram {
-      display: none;
-    }
+
+height: auto;
+
+}}
+
+@media only screen and (max-width: 768px) {
+
+  .instagram {
+
+    display: none;
+
   }
+
+}
+

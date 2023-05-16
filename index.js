@@ -27,7 +27,7 @@ toggleMenuBtn.addEventListener('click', function() {
 });
 
 window.addEventListener('resize', function() {
-  if (window.innerWidth >= 950) {
+  if (window.innerWidth >= 650) {
     mainMenu.classList.remove('toggle-menu');
   }
 });
